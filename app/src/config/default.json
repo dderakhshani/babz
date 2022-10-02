@@ -1,0 +1,15 @@
+{
+    "server": {
+        "host": "localhost",
+        "port": 3001
+    },
+    "jwt": {
+        "secret": "A",
+        "audiance": "babz-app",
+        "expiresIn": "90d"
+    },
+    "mongoDb": {
+        "server": "mongodb://localhost:27017",
+        "database": "babzDb"
+    }
+}
